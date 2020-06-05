@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "888496065743",
+    "firebase_url": "https://fir-mobildogrulama.firebaseio.com",
+    "project_id": "fir-mobildogrulama",
+    "storage_bucket": "fir-mobildogrulama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888496065743:android:cd0f59c75f295dd6adbbba",
+        "android_client_info": {
+          "package_name": "com.harun.firebasemobildogrulama"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888496065743-qspv4e6kv0ahdc18uih9ehap91a7qk0d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrLSL6C60gKQEoO-MzYfyWz5JymFsmFJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888496065743-qspv4e6kv0ahdc18uih9ehap91a7qk0d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

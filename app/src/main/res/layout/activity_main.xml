@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Telefon No Doğrulama"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/telefonNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:layout_centerHorizontal="true"
+        android:hint="Telefon No Giriniz"
+        android:layout_marginTop="250dp"/>
+
+    <EditText
+        android:id="@+id/dogrulamaKodu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/telefonNo"
+        android:layout_centerHorizontal="true"
+        android:hint="Doğrulama Kodu"/>
+
+    <Button
+        android:id="@+id/koduGonder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doğrulama Kodu Gönder"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/dogrulamaKodu"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/koduDogrula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gelen Kodu Doğrula"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/koduGonder"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

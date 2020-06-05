@@ -1,0 +1,2 @@
+rootProject.name='FirebaseMobilDogrulama'
+include ':app'
